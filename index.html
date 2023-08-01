@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CSS Only parallax</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body onload="changeSpan(); checkMobileViewport();">
+  <div class="container">
+    <section class="image centered content default_height">
+      <!--- particle animation link
+      open C:\Users\jorik\OneDrive\Dokumenty\it veci\particles\particle-orb-css-upgraded\particle-orb-css-upgraded\dist\index.html
+      using liveserver in VS code
+      add address to this iframe
+      --->
+     
+    </section>
+    <section class="heading centered content default_height">
+
+      <h2 class="glass_light up responsive">Want to utilize <span id="mainspan" style="color:#007acc">AI</span><br>
+        quickly and safely? We can help you!<br>
+        <a id="btn_main" href="#bubbles" class="btn main">Explore possibilities</a>
+      </h2>
+
+    </section>
+    <section class="text section_bubbles" style="background: white, z-index: -1;" id="bubbles">
+      <div class="flex-container left">
+        <a href="#scrollsection" class="btn small">Tabular data bots</a>
+        <a href="#" class="btn middle">Citizen data science tasks</a>
+        <a href="#" class="btn big">Generative-parametric Urban design</a>
+        <a href="#" class="btn middle">Tailored automation solutions</a><br>
+        <a href="#" class="btn small">Custom knowledge chatbots</a>
+        <a href="#" class="btn small">Small Button</a>
+        <a href="#" class="btn big">LLM indexing, finetuning and integration</a>
+        <a href="#" class="btn big">Virtual reality on WEB or Twinmotion</a>
+        <a href="#" class="btn middle">Architectural Visualisation</a>
+        <a href="#" class="btn small">Smart search bar solutions</a>
+      </div>
+      <div class="flex container right" id="flex_container_card">
+        <p>right container</p>
+        <div class="card"><p>card</p></div>
+      </div>
+
+    </section>
+    <section class="image image_content">
+      <img class="image_container" src="image1.jpg">
+    </section>
+
+    <section class="email-form image default_height">
+      <h3>Subscribe to our newsletter</h3>
+      <form action="#" method="post">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" value="Subscribe" class="btn main">
+      </form>
+    </section>
+
+    <section class="text" style="--bg: #384558">
+      <h1>Far, far away...</h1>
+    </section>
+    <section class="image default_height" style="background-image: url(https://images.unsplash.com/photo-1538982198821-0714ff3d74ba?ixlib=rb-0.3.5&amp;s=0550cf3351896481de327a10971739f1&amp;auto=format&amp;fit=crop&amp;w=1251&amp;q=80)"></section>
+    <section class="heading">
+      <h1>Suits..</h1>
+    </section>
+    <section class="text" style="--bg: #9dbdc4" id="scrollsection">
+      <h1>Sem informácie</h1>
+    </section>
+  </div>
+  <!---
+  <div class="footer" id="footer">
+    <h3>Pretty cool right?</h3>
+  </div>-->
+</body>
+</html>
